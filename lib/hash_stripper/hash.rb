@@ -3,7 +3,8 @@ class Hash
     each_pair.each do |key, value|
       case value
       when String
-        self[key] = value.strip!
+        value.strip!
+        self[key] = value
       when Array
         value.each do |v|
           v.strip!
