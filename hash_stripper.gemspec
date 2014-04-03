@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = HashStripper::VERSION
   spec.authors       = ["aditya-kapoor"]
   spec.email         = ["aditya.kapoor@vinsol.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = "A simple utility gem that will strip out spaces in your hash."
+  spec.description   = "A simple utility gem that will strip out spaces in your hash."
+  spec.homepage      = "https://github.com/aditya-kapoor/hash_stripper"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
