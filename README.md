@@ -1,6 +1,6 @@
 # HashStripper
 
-TODO: Write a gem description
+A simple utility gem that will strip out spaces in your hash.
 
 ## Installation
 
